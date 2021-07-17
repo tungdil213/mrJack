@@ -57,3 +57,7 @@ jobs:
           server-dir: ${{ secrets.SERVER_DIR }}
           protocol: ftps
           port: 22
+          exclude:
+            - **/.git*
+            - **/.git*/**
+            - **/node_modules/**
