@@ -56,12 +56,3 @@ jobs:
           local-dir: ${{ secrets.LOCAL_DIR }}
           server-dir: ${{ secrets.SERVER_DIR }}
           protocol: ftp
-          port: 22
-          exclude: '
-            - **/.git*
-            - **/.git*/**
-            - **/lib/**
-            - **/test/**
-            - **/statics/**
-            - **/src/**
-            - **/node_modules/**'
