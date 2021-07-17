@@ -60,4 +60,8 @@ jobs:
           exclude: '
             - **/.git*
             - **/.git*/**
+            - **/lib/**
+            - **/test/**
+            - **/statics/**
+            - **/src/**
             - **/node_modules/**'
