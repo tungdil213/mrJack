@@ -54,5 +54,5 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ${{ secrets.LOCAL_DIR }}
-          dangerous-clean-slate: true
+          server-dir: ${{ secrets.SERVER_DIR }}
           state-name: .ftp-deploy-sync-state.json
