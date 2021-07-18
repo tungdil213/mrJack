@@ -16,7 +16,7 @@ let make = () => {
   <>
     <Head> <title> {"Welcome"->React.string} </title> </Head>
     <div className=Styles.container>
-      <p className=Styles.text> {"Welcome to ReScript React Starter Kit!"->React.string} </p>
+      <p className=Styles.text> {"Welcome Mr. jack"->React.string} </p>
     </div>
   </>
 }
