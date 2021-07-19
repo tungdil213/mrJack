@@ -7,6 +7,7 @@ let make: (
   ~activeClassName: string=?,
   ~activeStyle: ReactDOM.Style.t=?,
   ~matchSubroutes: bool=?,
+  ~target: string=?,
   ~title: string=?,
   ~children: React.element,
 ) => React.element

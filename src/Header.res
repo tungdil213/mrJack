@@ -31,13 +31,13 @@ module Styles = {
 @react.component
 let make = () => {
   <header className=Styles.container>
-    <h1 className=Styles.title> {"ReScript React Starter Kit"->React.string} </h1>
+    <h1 className=Styles.title> {"Mr. Jack"->React.string} </h1>
     <nav className=Styles.nav>
       <Link href="/" className=Styles.navItem activeClassName=Styles.activeNavItem>
         {"Home"->React.string}
       </Link>
-      <Link href="/robots" className=Styles.navItem activeClassName=Styles.activeNavItem>
-        {"Request demo"->React.string}
+      <Link href="/about" className=Styles.navItem activeClassName=Styles.activeNavItem>
+        {"About"->React.string}
       </Link>
     </nav>
   </header>

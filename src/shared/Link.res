@@ -7,6 +7,7 @@ let make = (
   ~activeClassName=?,
   ~activeStyle=?,
   ~matchSubroutes=false,
+  ~target=?,
   ~title=?,
   ~children,
 ) => {
@@ -19,6 +20,7 @@ let make = (
   let actualHref = Router.makeHref(href)
   <a
     href=actualHref
+    ?target
     ?title
     className={Emotion.cx(
       [className, isActive ? activeClassName : None]->Belt.Array.keepMap(x => x),
